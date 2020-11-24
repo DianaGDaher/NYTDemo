@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  NYT
+
+  Created by Marianne on 11/24/20.
+  
+*/
+"noInternet" = "Check your internet connection.";
+"connectionTimeout" = "Check your internet connection.";
+"something_went_wrong" = "Something went wrong, please try again later.";
+"serverUnreachable" = "An error has occured, please try again.";
+"news_title" = "New York Times";
+"empty_results" = "No results found";
+"error" = "Error";
+"ok" = "Ok";
+"view_more" = "View more";
