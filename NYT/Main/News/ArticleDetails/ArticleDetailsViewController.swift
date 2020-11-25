@@ -10,7 +10,6 @@ import UIKit
 class ArticleDetailsViewController: BaseViewController {
     
     var article: NewsObjectModel?
-    var model: ArticleDetailsModel!
     
     @IBOutlet weak var newsImage: UIImageView! {
         didSet {

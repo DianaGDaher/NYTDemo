@@ -39,4 +39,12 @@ class NYTUITests: XCTestCase {
             }
         }
     }
+    
+    func testNewsList() throws {
+        let app = XCUIApplication()
+        app.launch()
+        
+        let tablesQuery = app.tables
+        tablesQuery.firstMatch.cells.allElementsBoundByIndex.first?.tap()
+    }
 }
